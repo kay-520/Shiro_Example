@@ -2,7 +2,7 @@ package com.test.service.impl;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.test.domain.Permission;
-import com.test.mappper.PermissionMapper;
+import com.test.mapper.PermissionMapper;
 import com.test.service.PermissionService;
 import org.springframework.stereotype.Service;
 

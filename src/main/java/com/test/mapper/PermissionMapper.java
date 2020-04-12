@@ -1,15 +1,15 @@
-package com.test.mappper;
+package com.test.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.test.domain.Role;
+import com.test.domain.Permission;
 import org.apache.ibatis.annotations.Mapper;
 
 /**
  * @author: create by wangmh
- * @name: RoleMapper.java
+ * @name: PermissionMapper.java
  * @description:
  * @date:2020/4/8
  **/
 @Mapper
-public interface RoleMapper extends BaseMapper<Role> {
+public interface PermissionMapper extends BaseMapper<Permission> {
 }
